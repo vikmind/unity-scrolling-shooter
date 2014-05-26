@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class HelthScript : MonoBehaviour
+public class HealthScript : MonoBehaviour
 {
 	/// <summary>
 	/// Total hitpoints
