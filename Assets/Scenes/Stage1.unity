@@ -1619,6 +1619,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1312049576}
   - 114: {fileID: 1312049577}
+  - 114: {fileID: 1312049578}
   m_Layer: 0
   m_Name: Scripts
   m_TagString: Untagged
@@ -1651,6 +1652,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   smokeEffect: {fileID: 19800000, guid: 3849348ce487c4ea28556553b5dda760, type: 2}
   fireEffect: {fileID: 19800000, guid: 310266272f325402f952e78263e8fea3, type: 2}
+--- !u!114 &1312049578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1312049575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecd03084d79b0414f96e86900cf9283c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionSound: {fileID: 8300000, guid: 8dd92cc830e264cfd9894d677b957e46, type: 3}
+  playerShotSound: {fileID: 8300000, guid: 5e118158dbf78438bbfdd806da606877, type: 3}
+  enemyShotSound: {fileID: 8300000, guid: 74750ffed092d4beaa8edcbecbb14382, type: 3}
+  hurtSound: {fileID: 8300000, guid: 58903cb6bf63647bb8f344990fc200b4, type: 3}
 --- !u!1 &1316887303
 GameObject:
   m_ObjectHideFlags: 0
